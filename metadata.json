@@ -1,0 +1,6 @@
+{
+  "name": "ZeroCost AI",
+  "description": "ZeroCost AI — Predict. Optimize. Save. AI-powered cloud cost analysis and optimization prototype using simulated AWS, Azure, and Google Cloud data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
