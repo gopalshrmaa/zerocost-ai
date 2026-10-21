@@ -1,7 +1,0 @@
-{
-  "name": "ZeroCost AI — Multi-Cloud FinOps Orchestrator",
-  "description": "Predictive multi-cloud compute and serverless FinOps orchestrator with real-time telemetry, ML forecasting, anomaly detection, and automated cost optimization workflows.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
-
