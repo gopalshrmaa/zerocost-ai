@@ -1,0 +1,1294 @@
+[
+  {
+    "timestamp": "2026-10-30 23:13:20",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773826,
+      "predicted_memory": 0.7274077102182105,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105465,
+      "recommended_memory": 0.969876946957614,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085398,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 22:56:41",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773823,
+      "predicted_memory": 0.7274077102182105,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105463,
+      "recommended_memory": 0.969876946957614,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085395,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 22:56:31",
+    "input": {
+      "cpu": 500,
+      "memory": 2,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.6801356503188694,
+      "predicted_memory": 4.934227417190984,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 2.0,
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.8287652147412423,
+      "recommended_memory": 6.578969889587978,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.6666666666666665,
+      "current_monthly_cost": 16259.563611428573,
+      "optimized_monthly_cost": 107.18213486976543,
+      "estimated_monthly_saving": 16152.381476558809,
+      "saving_percent": 99.34080558721497,
+      "cpu_ratio": 0.0053602713006377384,
+      "memory_ratio": 2.467113708595492,
+      "demand_ratio": 0.743886302489094,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast resource demand is more than 10% below the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 22:55:45",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773826,
+      "predicted_memory": 0.7274077102182102,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105465,
+      "recommended_memory": 0.9698769469576135,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085398,
+      "memory_ratio": 16.164615782626893,
+      "demand_ratio": 5.316460120984045,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:05:07",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773821,
+      "predicted_memory": 0.7274077102182104,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.382161857110546,
+      "recommended_memory": 0.9698769469576138,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244592,
+      "estimated_monthly_saving": 12.906489274696938,
+      "saving_percent": 27.279421349334655,
+      "cpu_ratio": 0.6672505517085394,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:04:31",
+    "input": {
+      "cpu": 500,
+      "memory": 2,
+      "workloads": 1590,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.6758583919454266,
+      "predicted_memory": 4.934611627141748,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 2.0,
+      "context_workloads": 1590.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.822654845636324,
+      "recommended_memory": 6.57948216952233,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.6666666666666665,
+      "current_monthly_cost": 16259.563611428573,
+      "optimized_monthly_cost": 107.04467453354927,
+      "estimated_monthly_saving": 16152.518936895025,
+      "saving_percent": 99.34165099942591,
+      "cpu_ratio": 0.0053517167838908536,
+      "memory_ratio": 2.467305813570874,
+      "demand_ratio": 0.7439379458199857,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast resource demand is more than 10% below the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:04:21",
+    "input": {
+      "cpu": 500,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 2.5204460765292787,
+      "predicted_memory": 5.007354784121916,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 3.600637252184684,
+      "recommended_memory": 6.6764730454958885,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 16251.611609828575,
+      "optimized_monthly_cost": 102.28921449321751,
+      "estimated_monthly_saving": 16149.322395335357,
+      "saving_percent": 99.37059033313746,
+      "cpu_ratio": 0.005040892153058557,
+      "memory_ratio": 111.27455075826481,
+      "demand_ratio": 33.38589385198658,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:03:30",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773826,
+      "predicted_memory": 0.7274077102182104,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105465,
+      "recommended_memory": 0.9698769469576138,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085398,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:03:10",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773823,
+      "predicted_memory": 0.7274077102182104,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105463,
+      "recommended_memory": 0.9698769469576138,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085395,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 12:02:24",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773821,
+      "predicted_memory": 0.7274077102182105,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.382161857110546,
+      "recommended_memory": 0.969876946957614,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244592,
+      "estimated_monthly_saving": 12.906489274696938,
+      "saving_percent": 27.279421349334655,
+      "cpu_ratio": 0.6672505517085394,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:53:19",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773826,
+      "predicted_memory": 0.7274077102182104,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105465,
+      "recommended_memory": 0.9698769469576138,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085398,
+      "memory_ratio": 16.1646157826269,
+      "demand_ratio": 5.316460120984048,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:53:12",
+    "input": {
+      "cpu": 1500,
+      "memory": 2,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.6801356503188694,
+      "predicted_memory": 4.934227417190983,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1500.0,
+      "context_memory": 2.0,
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.8287652147412423,
+      "recommended_memory": 6.578969889587977,
+      "current_capacity_cpu": 2142.857142857143,
+      "current_capacity_memory": 2.6666666666666665,
+      "current_monthly_cost": 48762.42075428572,
+      "optimized_monthly_cost": 107.1821348697654,
+      "estimated_monthly_saving": 48655.238619415955,
+      "saving_percent": 99.7801952134209,
+      "cpu_ratio": 0.0017867571002125795,
+      "memory_ratio": 2.4671137085954915,
+      "demand_ratio": 0.7413848425487963,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast resource demand is more than 10% below the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:52:59",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773823,
+      "predicted_memory": 0.7274077102182102,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105463,
+      "recommended_memory": 0.9698769469576135,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085395,
+      "memory_ratio": 16.164615782626893,
+      "demand_ratio": 5.316460120984045,
+      "action": "SCALE-UP",
+      "reason": "Forecast resource demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:50:33",
+    "input": {
+      "cpu": 500,
+      "memory": 2,
+      "workloads": 12500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 3.9192724661338594,
+      "predicted_memory": 5.578216813712467,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 2.0,
+      "context_workloads": 12500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 5.598960665905514,
+      "recommended_memory": 7.437622418283289,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.6666666666666665,
+      "current_monthly_cost": 16259.563611428573,
+      "optimized_monthly_cost": 150.077061524794,
+      "estimated_monthly_saving": 16109.486549903779,
+      "saving_percent": 99.07699206995132,
+      "cpu_ratio": 0.007838544932267719,
+      "memory_ratio": 2.7891084068562333,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:50:19",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773823,
+      "predicted_memory": 0.7274077102182103,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.3821618571105463,
+      "recommended_memory": 0.9698769469576137,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244593,
+      "estimated_monthly_saving": 12.90648927469693,
+      "saving_percent": 27.279421349334637,
+      "cpu_ratio": 0.6672505517085395,
+      "memory_ratio": 16.164615782626896,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:50:12",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.756848472514431,
+      "predicted_memory": 5.142925554106188,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 1.5,
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.9383549607349013,
+      "recommended_memory": 6.857234072141583,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 110.52440461647849,
+      "estimated_monthly_saving": 16147.005446812096,
+      "saving_percent": 99.32016483668478,
+      "cpu_ratio": 0.005513696945028862,
+      "memory_ratio": 3.4286170360707917,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:50:10",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.7568484725144318,
+      "predicted_memory": 5.1429255541061885,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 1.5,
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.9383549607349027,
+      "recommended_memory": 6.857234072141584,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 110.52440461647852,
+      "estimated_monthly_saving": 16147.005446812096,
+      "saving_percent": 99.32016483668478,
+      "cpu_ratio": 0.0055136969450288635,
+      "memory_ratio": 3.428617036070792,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:50:08",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 2.756848472514431,
+      "predicted_memory": 5.1429255541061885,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 500.0,
+      "context_memory": 1.5,
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 3.9383549607349013,
+      "recommended_memory": 6.857234072141584,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 110.52440461647849,
+      "estimated_monthly_saving": 16147.005446812096,
+      "saving_percent": 99.32016483668478,
+      "cpu_ratio": 0.005513696945028862,
+      "memory_ratio": 3.428617036070792,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:49:39",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.9675132999773821,
+      "predicted_memory": 0.7274077102182104,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest next-window forecasting",
+      "context_cpu": 1.45,
+      "context_memory": 0.045,
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 1.382161857110546,
+      "recommended_memory": 0.9698769469576138,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 34.40569198244592,
+      "estimated_monthly_saving": 12.906489274696938,
+      "saving_percent": 27.279421349334655,
+      "cpu_ratio": 0.6672505517085394,
+      "memory_ratio": 16.1646157826269,
+      "action": "SCALE-UP",
+      "reason": "Forecast demand is more than 10% above the current workload."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:44:37",
+    "input": {
+      "cpu": 1500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.8047401254364677,
+      "predicted_memory": 0.06009457926982469,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0,
+      "input_cpu": 1500.0,
+      "input_memory": 1.5
+    },
+    "optimization": {
+      "recommended_cpu": 1.1496287506235252,
+      "recommended_memory": 0.0801261056930996,
+      "current_capacity_cpu": 2142.857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 48760.38699428573,
+      "optimized_monthly_cost": 26.40078923725805,
+      "estimated_monthly_saving": 48733.986205048466,
+      "saving_percent": 99.94585607115802,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:44:21",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6317559126022245,
+      "predicted_memory": 0.06081323589507008,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605,
+      "input_cpu": 1.45,
+      "input_memory": 0.045
+    },
+    "optimization": {
+      "recommended_cpu": 0.9025084465746065,
+      "recommended_memory": 0.08108431452676011,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.78123122973336,
+      "estimated_monthly_saving": 26.5309500274095,
+      "saving_percent": 56.076361990611126,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:42:49",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1200,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.8024134625675441,
+      "predicted_memory": 0.060094579269824706,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1200.0,
+      "assigned_memory": 2.0,
+      "input_cpu": 500.0,
+      "input_memory": 1.5
+    },
+    "optimization": {
+      "recommended_cpu": 1.146304946525063,
+      "recommended_memory": 0.08012610569309961,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 26.325166046409834,
+      "estimated_monthly_saving": 16231.204685382165,
+      "saving_percent": 99.83807401070774,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:41:56",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6317559126022245,
+      "predicted_memory": 0.06081323589507009,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605,
+      "input_cpu": 1.45,
+      "input_memory": 0.045
+    },
+    "optimization": {
+      "recommended_cpu": 0.9025084465746065,
+      "recommended_memory": 0.08108431452676011,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.78123122973336,
+      "estimated_monthly_saving": 26.5309500274095,
+      "saving_percent": 56.076361990611126,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:41:53",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.8047401254364679,
+      "predicted_memory": 0.06009457926982469,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0,
+      "input_cpu": 500.0,
+      "input_memory": 1.5
+    },
+    "optimization": {
+      "recommended_cpu": 1.1496287506235257,
+      "recommended_memory": 0.0801261056930996,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 26.400789237258056,
+      "estimated_monthly_saving": 16231.129062191318,
+      "saving_percent": 99.83760885276838,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:41:42",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.8047401254364678,
+      "predicted_memory": 0.0600945792698247,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500.0,
+      "assigned_memory": 2.0,
+      "input_cpu": 500.0,
+      "input_memory": 1.5
+    },
+    "optimization": {
+      "recommended_cpu": 1.1496287506235254,
+      "recommended_memory": 0.0801261056930996,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 26.400789237258053,
+      "estimated_monthly_saving": 16231.129062191318,
+      "saving_percent": 99.83760885276838,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:41:16",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6317559126022245,
+      "predicted_memory": 0.06081323589507008,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120.0,
+      "assigned_memory": 0.0605,
+      "input_cpu": 1.45,
+      "input_memory": 0.045
+    },
+    "optimization": {
+      "recommended_cpu": 0.9025084465746065,
+      "recommended_memory": 0.08108431452676011,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.78123122973336,
+      "estimated_monthly_saving": 26.5309500274095,
+      "saving_percent": 56.076361990611126,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:36:06",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980995,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641327,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:35:59",
+    "input": {
+      "cpu": 500,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.6513951013591935,
+      "predicted_memory": 0.05925011437040936,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 0.9305644305131336,
+      "recommended_memory": 0.07900015249387915,
+      "current_capacity_cpu": 714.2857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 16257.529851428575,
+      "optimized_monthly_cost": 21.413202948238744,
+      "estimated_monthly_saving": 16236.116648480336,
+      "saving_percent": 99.86828747574862,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:35:14",
+    "input": {
+      "cpu": 92,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6304142793747312,
+      "predicted_memory": 0.059695302709809946,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781875,
+      "recommended_memory": 0.07959373694641327,
+      "current_capacity_cpu": 131.42857142857144,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 2990.445895542858,
+      "optimized_monthly_cost": 20.73307710101233,
+      "estimated_monthly_saving": 2969.7128184418457,
+      "saving_percent": 99.30668944280468,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:35:12",
+    "input": {
+      "cpu": 92,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.059695302709809946,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641327,
+      "current_capacity_cpu": 131.42857142857144,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 2990.445895542858,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 2969.7128184418457,
+      "saving_percent": 99.30668944280468,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:35:10",
+    "input": {
+      "cpu": 92,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.059695302709809946,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641327,
+      "current_capacity_cpu": 131.42857142857144,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 2990.445895542858,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 2969.7128184418457,
+      "saving_percent": 99.30668944280468,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:35:04",
+    "input": {
+      "cpu": 9,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980994,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641325,
+      "current_capacity_cpu": 12.857142857142858,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 292.7087526857144,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 271.97567558470206,
+      "saving_percent": 92.9168236648961,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 11:34:45",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980994,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641325,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 10:20:44",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.059695302709809946,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641327,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 10:20:13",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980993,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641324,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 10:20:03",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6304142793747312,
+      "predicted_memory": 0.059695302709809925,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781875,
+      "recommended_memory": 0.07959373694641324,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.73307710101233,
+      "estimated_monthly_saving": 26.57910415613053,
+      "saving_percent": 56.17814154809826,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 10:18:25",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980994,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641325,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-30 10:18:00",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.630414279374731,
+      "predicted_memory": 0.05969530270980993,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781872,
+      "recommended_memory": 0.07959373694641324,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-29 23:15:12",
+    "input": {
+      "cpu": 15,
+      "memory": 2,
+      "workloads": 1500,
+      "assigned_memory": 1.5
+    },
+    "forecast": {
+      "predicted_cpu": 0.6474239900615861,
+      "predicted_memory": 0.05925011437040936,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500,
+      "assigned_memory": 1.5
+    },
+    "optimization": {
+      "recommended_cpu": 0.9248914143736945,
+      "recommended_memory": 0.07900015249387915,
+      "current_capacity_cpu": 21.42857142857143,
+      "current_capacity_memory": 2.6666666666666665,
+      "current_monthly_cost": 495.67789714285726,
+      "optimized_monthly_cost": 21.284130485034225,
+      "estimated_monthly_saving": 474.39376665782305,
+      "saving_percent": 95.70605616919408,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-29 23:14:53",
+    "input": {
+      "cpu": 15,
+      "memory": 1.5,
+      "workloads": 1500,
+      "assigned_memory": 2
+    },
+    "forecast": {
+      "predicted_cpu": 0.6513951013591935,
+      "predicted_memory": 0.059250114370409376,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 1500,
+      "assigned_memory": 2.0
+    },
+    "optimization": {
+      "recommended_cpu": 0.9305644305131336,
+      "recommended_memory": 0.07900015249387916,
+      "current_capacity_cpu": 21.42857142857143,
+      "current_capacity_memory": 2.0,
+      "current_monthly_cost": 493.64413714285723,
+      "optimized_monthly_cost": 21.413202948238744,
+      "estimated_monthly_saving": 472.2309341946185,
+      "saving_percent": 95.66221872457042,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  },
+  {
+    "timestamp": "2026-10-29 23:14:33",
+    "input": {
+      "cpu": 1.45,
+      "memory": 0.045,
+      "workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "forecast": {
+      "predicted_cpu": 0.6304142793747309,
+      "predicted_memory": 0.05969530270980994,
+      "next_window": "Next 5-minute workload window",
+      "model": "Random Forest trained on Borg workload history",
+      "context_workloads": 120,
+      "assigned_memory": 0.0605
+    },
+    "optimization": {
+      "recommended_cpu": 0.9005918276781871,
+      "recommended_memory": 0.07959373694641325,
+      "current_capacity_cpu": 2.0714285714285716,
+      "current_capacity_memory": 0.06,
+      "current_monthly_cost": 47.31218125714286,
+      "optimized_monthly_cost": 20.733077101012324,
+      "estimated_monthly_saving": 26.579104156130537,
+      "saving_percent": 56.17814154809827,
+      "action": "DOWN-SCALE",
+      "reason": "Forecast demand is lower than the current resource capacity."
+    }
+  }
+]
